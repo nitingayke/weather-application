@@ -1,0 +1,12 @@
+.weather-heading{
+    display: flex;
+    justify-content: center;
+}
+.weather-heading h1{
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+.weather-heading h1 span{
+    color: #b4e5f8;
+    text-shadow: 0 0 5px #114e63;
+}

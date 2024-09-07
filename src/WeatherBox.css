@@ -1,0 +1,13 @@
+.Weather-Box{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1070px) {
+    .Weather-Box{
+        display: inline-block;
+        text-align: center;
+    }   
+    .Weather-City-Input-Box{
+        margin: 0 auto;
+    }
+}

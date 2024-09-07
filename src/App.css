@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.weather-box{
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(31 0 54 / 94%);
+    color: rgb(255, 255, 255);
+}
+

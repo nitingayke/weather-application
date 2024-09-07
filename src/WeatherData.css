@@ -1,0 +1,40 @@
+.weather-data{
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    flex: 1;
+    padding: 1rem 1rem 0.3rem 1rem;
+}
+.weather-data p{
+    padding: 0.5rem 1rem;
+}
+.weather-status-box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow-y: auto;
+}
+.weather-status-boxes{
+    height: 6rem;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 0;
+    text-align: center;
+    background-color: rgb(22, 0, 39);
+}
+.weather-status-boxes p{
+    font-size: 1.2rem;
+}
+.weather-status-boxes:hover{
+    box-shadow: 0 0 10px rgb(126, 0, 222), inset 0 0 30px lightblue;
+    
+}
+.box-content{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(202, 202, 202);
+}
+.box-content-p{
+    color: rgb(193, 193, 193);
+}

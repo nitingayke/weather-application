@@ -1,0 +1,24 @@
+.WeatherTemp{
+    height: fit-content;
+    width: 100%;
+}
+.WeatherTemp h2{
+    padding: 0 0 0.5rem 0;
+}
+.weather-city-name{
+    font-size: 2rem;
+    color: aqua;
+}
+.temperature-box{
+    background-color: rgb(22, 0, 39);
+    height: 10rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1527377844612-ae9febb890c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdWR5JTIwc2t5fGVufDB8fDB8fHww");
+    background-size: cover;
+}   
+.temperature-box p{
+    font-size: 5rem;
+}
